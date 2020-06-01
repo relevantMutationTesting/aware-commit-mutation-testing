@@ -46,15 +46,13 @@ Symbols
 - Delta MS: The difference of Mutation Score between the pre and post version
 - RMS: Relevant Mutation Socre
 - TS: Falut Relevant Score
-- Subsuming： Only count the subsmed mutants.
----
-
+- Subsuming： Only count the subsumed mutants.
 ---
 Conclusion
 - It is necessary to use Relevant Mutants in Regression Testing. The traditional Mutatsion Score cannot indicate how
 RMS is. 
 ---
-
+Correlations
 - MS of Modification and Delta MS 
   ![K_Delta MS and MS of Modification](graphs/c_programs/kendall_MS_of_Modification_and_Delta_MS.png)
   ![P_Delta MS and MS of Modification](graphs/c_programs/pearson_MS%20of%20Modification%20and%20Delta%20MS.png)
