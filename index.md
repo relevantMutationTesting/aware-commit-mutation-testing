@@ -47,6 +47,7 @@ Symbols
 - RMS: Relevant Mutation Socre
 - TS: Falut Relevant Score
 - Subsuming： Only count the subsumed mutants.
+
 ---
 Conclusion
 - It is necessary to use Relevant Mutants in Regression Testing. The traditional Mutatsion Score cannot indicate how
