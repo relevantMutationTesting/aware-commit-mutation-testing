@@ -38,7 +38,22 @@ We study tow languages projects, C and Java, which are widely used in the world.
 ### Result
 We mainly study the relationship between relevant mutation score and the tradition mutation score. In the end,
 we find that the classical mutation score cannot be an indicator of the relevant mutation score. The more details 
-can be found in our paper, [Commit-Aware Mutation Testing](). Here, we will shos the complement results of Kendall and Pearson correlation for our paper.
+can be found in our paper, [Commit-Aware Mutation Testing](). Here, we shows the complement results of Kendall and Pearson correlation for our paper.
+
+---
+Symbols 
+- MS: Mutation Score
+- Delta MS: The difference of Mutation Score between the pre and post version
+- RMS: Relevant Mutation Socre
+- TS: Falut Relevant Score
+- Subsuming： Only count the subsmed mutants.
+---
+
+---
+Conclusion
+- It is necessary to use Relevant Mutants in Regression Testing. The traditional Mutatsion Score cannot indicate how
+RMS is. 
+---
 
 - MS of Modification and Delta MS 
   ![K_Delta MS and MS of Modification](graphs/c_programs/kendall_MS_of_Modification_and_Delta_MS.png)
