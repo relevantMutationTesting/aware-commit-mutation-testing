@@ -21,18 +21,18 @@ Mutation Testing in Regression Testing. Usually, the code has small change in on
 useful to test the test of the code change. Insted of the entire mutant set to test the whole program,  we define commit-relevant mutants; a set of mutants that affect the changed program behaviours and represent the commit-relevant test requirements. 
 
 #### Definition and Example of Commit-Aware Mutant
-- Definition\
+- Definition
  The regression changes interact with a mutant when the program version that include both the regression changes and the mutant behaves differently from:
     1.  the version that inlcudes only the mutant(mutant in the pre-commit version).
     2. the version that includes only the regression changes(post-commit version).
-- Example\
+- Example
   We can see that mutant 1 is relevant to the commit change but mutant 2 and 3 are non-relevant.
    ![Example](example.png)
 
 
 ## Datasets
 We study tow languages projects, C and Java, which are widely used in the world. For C, we study the commits from [Coreutils](https://www.gnu.org/software/coreutils/) and [CoREBench](https://www.comp.nus.edu.sg/~release/corebench/),
- and use Symolic Execution to augment the test suite. For Java, we use the projects from Apache. The below tables summarize our research dataset.\
+ and use Symolic Execution to augment the test suite. For Java, we use the projects from Apache. The below tables summarize our research dataset.
  ![Dataset](dataset.png)
 
 ### Result
